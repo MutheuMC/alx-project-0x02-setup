@@ -1,5 +1,6 @@
 import React from 'react';
-import { ButtonProps } from '@/interfaces';
+import { type ButtonProps } from '@/interfaces'
+// import { ButtonProps } from '@/interfaces';
 
 const Button: React.FC<ButtonProps> = ({ size = 'medium', shape = 'rounded-md', label, onClick }) => {
   // Define size classes
